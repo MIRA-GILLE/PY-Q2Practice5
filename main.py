@@ -9,6 +9,8 @@ def check_country(e):
         "fr": "France",
     }
 
+    document.getElementById("output1").innerHTML = ""
+    
     country_code = document.getElementById("countries").value
-
+  
     display(country.get(country_code, "Country code not found."), target="output1")
