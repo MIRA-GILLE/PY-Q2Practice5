@@ -14,7 +14,7 @@ def check_country(e):
     country_code = document.getElementById("countries").value
 
     #add a country
-    country["ca"] = "Canada"
+    country["nz"] = "New Zealand"
 
   
     display(country.get(country_code, "Country code not found."), target="output1")
